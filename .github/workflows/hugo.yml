@@ -62,7 +62,8 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+         # deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          personal_token: ${{ secrets.TOKEN }}
           external_repository: translate-lhq/sofastack.github.io
           publish_dir: ./public
         #   keep_files: true
