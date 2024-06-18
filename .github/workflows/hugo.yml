@@ -64,7 +64,7 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           # personal_token: ${{ secrets.TOKEN }}
-          external_repository: translate-lhq/sofastack.github.io
+          external_repository: translate-lhq/translate-lhq.github.io
           publish_dir: ./public
         #   keep_files: true
           publish_branch: master
