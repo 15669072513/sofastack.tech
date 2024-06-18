@@ -67,7 +67,7 @@ jobs:
           external_repository: translate-lhq/sofastack.github.io
           publish_dir: ./public
         #   keep_files: true
-          publish_branch: deploy
+          publish_branch: master
             
       # - name: Upload artifact
       #   uses: actions/upload-pages-artifact@v3
